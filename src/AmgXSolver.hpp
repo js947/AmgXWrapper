@@ -156,7 +156,7 @@ class AmgXSolver
          *
          * \return PetscErrorCode.
          */
-        PetscErrorCode solve(Vec &p, Vec &b);
+        PetscErrorCode solve(Vec p, Vec b);
 
 
         /** \brief Get the number of iterations of the last solving.

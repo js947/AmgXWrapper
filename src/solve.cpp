@@ -13,7 +13,7 @@
 
 
 /* \implements AmgXSolver::solve */
-PetscErrorCode AmgXSolver::solve(Vec &p, Vec &b)
+PetscErrorCode AmgXSolver::solve(Vec p, Vec b)
 {
     PetscFunctionBeginUser;
 
