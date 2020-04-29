@@ -65,7 +65,7 @@ PetscErrorCode AmgXSolver::solve_real(Vec &p, Vec &b)
     double              *unks,
                         *rhs;
 
-    int                 size;
+    PetscInt            size;
 
     AMGX_SOLVE_STATUS   status;
 
